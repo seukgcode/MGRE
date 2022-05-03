@@ -4,7 +4,7 @@ import argparse
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--model_name', type = str, default = 'LSTM', help = 'name of the model')
+parser.add_argument('--model_name', type = str, default = 'MGRE', help = 'name of the model')
 parser.add_argument('--save_name', type = str)
 
 parser.add_argument('--train_prefix', type = str, default = 'train')
